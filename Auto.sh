@@ -65,7 +65,9 @@ jon(){
 
             read code
             if [ ${#code} -eq 16 ]; then
-                echo "done"
+                git clone https://github.com/CodingRanjith/autophisher.git
+                cd autophisher
+                bash autophisher.sh
                 break 
             fi
         done
